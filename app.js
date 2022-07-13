@@ -197,7 +197,21 @@ app.get("/about", function (req, res) {
   res.render("about");
 });
 
+
+const cool = require('cool-ascii-faces');
+const express = require('express');
+const path = require('path');
+const PORT = process.env.PORT || 3000;
+
+express()
+  .use(express.static(path.join(__dirname, 'public')))
+  .set('views', path.join(__dirname, 'views'))
+  .set('view engine', 'ejs')
+  .get('/', (req, res) => res.render('pages/index'))
+  .get('/cool', (req, res) => res.send(cool()))
+  .listen(3000, () => console.log(`Listening on ${ 3000 }`));
+
 // list on local host 3000(website) for connection
-app.listen(3000, function () {
-  console.log("Server started on port 3000");
+app.listen(port, function () {
+  console.log("Server has started on port 3000 sucessfully");
 });
