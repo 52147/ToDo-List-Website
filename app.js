@@ -212,6 +212,8 @@ express()
   .listen(3000, () => console.log(`Listening on ${ 3000 }`));
 
 // list on local host 3000(website) for connection
-app.listen(port, function () {
-  console.log("Server has started on port 3000 sucessfully");
+app.listen(process.env.PORT || 3000, function () {
+
+  console.log("Server started on port 3000");
+
 });
