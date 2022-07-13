@@ -198,12 +198,6 @@ app.get("/about", function (req, res) {
 });
 
 
-const cool = require('cool-ascii-faces');
-const express = require('express');
-const path = require('path');
-const PORT = process.env.PORT || 3000;
-
-
 
 // list on local host 3000(website) for connection
 app.listen(process.env.PORT || 3000, function () {
