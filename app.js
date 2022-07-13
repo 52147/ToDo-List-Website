@@ -203,13 +203,7 @@ const express = require('express');
 const path = require('path');
 const PORT = process.env.PORT || 3000;
 
-express()
-  .use(express.static(path.join(__dirname, 'public')))
-  .set('views', path.join(__dirname, 'views'))
-  .set('view engine', 'ejs')
-  .get('/', (req, res) => res.render('pages/index'))
-  .get('/cool', (req, res) => res.send(cool()))
-  .listen(3000, () => console.log(`Listening on ${ 3000 }`));
+
 
 // list on local host 3000(website) for connection
 app.listen(process.env.PORT || 3000, function () {
