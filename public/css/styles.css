@@ -18,30 +18,11 @@
     width: 5px;
     padding-left: 1px;
     padding-right: 1px;
-    margin-bottom: 5%;
-
-  }
-
-  /* .i {
-    margin-left: 15px;
-    padding-bottom: 7%;
-    border-left: 10px;
-  }
-
-  .bu {
-    min-height: auto;
-    width: auto;
-    border-radius: 50%;
-    border-color: transparent;
-    background-color: #9af2ff;
-    color: #fff;
-    font-size: 30px;
-    padding-bottom: auto;
-    border-width: 0;
-    padding-top: 0%;
     margin-bottom: 0%;
+    margin-left: 10%;
 
-  } */
+  }
+
 
 
   .bu:active {
@@ -59,7 +40,11 @@
     -webkit-box-shadow: 1px 1px 10px #999;
     box-shadow: 1px 1px 10px #999;
     opacity: 0.7;
+    border-radius: 100%;
+
   }
+
+
 
 }
 
@@ -131,6 +116,8 @@ form.item {
   margin-left: 5px;
 }
 
+
+
 button {
   min-height: 50px;
   width: 50px;
@@ -146,9 +133,6 @@ button {
 
 }
 
-.bu {
-  width: 15%;
-}
 
 input[type="text"] {
   text-align: center;
@@ -187,13 +171,4 @@ footer {
   color: white;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
-}
-
-.activity_rounded {
-  display: inline-block;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  -khtml-border-radius: 50%;
-  border: 3px solid #fff;
 }
