@@ -28,6 +28,21 @@
     border-left: 10px;
   }
 
+  .bu {
+    min-height: auto;
+    width: auto;
+    border-radius: 60%;
+    border-color: transparent;
+    background-color: #9af2ff;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: auto;
+    border-width: 0;
+    padding-top: 2%;
+    margin-bottom: 5%;
+
+  }
+
 
   .bu:active {
     border: solid 1px #CCC;
@@ -74,10 +89,6 @@ h1 {
 #heading {
   background-color: #9af2ff;
   text-align: center;
-}
-
-.bu {
-  width: 15%;
 }
 
 .item {
@@ -133,6 +144,10 @@ button {
   padding-top: 2%;
   margin-bottom: 5%;
 
+}
+
+.bu {
+  width: 15%;
 }
 
 input[type="text"] {
