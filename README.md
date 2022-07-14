@@ -9,7 +9,7 @@ The issue is simple to solve, but it took me a while to found out where the issu
 After I modified my json file(key map value and do not have comma in last document), and git add* git commit -m "update" git push heroku master, and the website builds successfully by the heroku app.
 What I found interested of built a full stack website by myself is that when the webiste is sucessfully released, all the time working on the project is worth it.
 
-Need to notice that need to push this project twice, onece for heroku app and anothr to update this resporitary.
+Note that need to push this project twice, onece for heroku app and anothr to update this resporitary.
 so git push -u origin main and them git push heroku, then website be updated at the heroku url.
 
 
