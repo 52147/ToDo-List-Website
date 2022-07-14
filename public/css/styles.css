@@ -31,15 +31,15 @@
   .bu {
     min-height: auto;
     width: auto;
-    border-radius: 60%;
+    border-radius: 50%;
     border-color: transparent;
     background-color: #9af2ff;
     color: #fff;
     font-size: 30px;
     padding-bottom: auto;
     border-width: 0;
-    padding-top: 2%;
-    margin-bottom: 5%;
+    padding-top: 0%;
+    margin-bottom: 0%;
 
   }
 
