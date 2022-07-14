@@ -1,7 +1,7 @@
 # ToDo-List-Website
 https://tranquil-citadel-69579.herokuapp.com/
 
-Build a dynamic data response To-Do-List website implemented by EJS and connected to backend database MongoDB to operate get, post, delete request from front-end localhost:3000 by using Node.js, Express.
+Built a dynamic data response To-Do-List website implemented by EJS and connected to backend database MongoDB to operate get, post, delete request from front-end localhost:3000 by using Node.js, Express.
 
 The most challenging part to build this project was the typo in package.json, I spend lots of time to figure out why my project could not connect with heroku. And the terminal can not let me to git push heroko master and said there is some issue in my json file.
 The issue is simple to solve, but it took me a while to found out where the issue was.
