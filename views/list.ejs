@@ -1,6 +1,10 @@
 <%- include("header") -%>
-<!-- change the viewport to adjust for mobile devive width -->
+
+<!-- BootStrap Scripts -->
+<!-- CSS only -->
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/f5d2edca5a.js" crossorigin="anonymous"></script>
 
 
 <div class="box" id="heading">
@@ -24,10 +28,9 @@
 
   <form class="item" action="/" method="post">
     <div class="i"><input type="text" name="newItem" placeholder="New Item" autocomplete="off">
-      <button class="bu activity_rounded" type="submit" name="list" value="<%= listTitle %>">+</button></div>
+      <button class="bu" type="submit" name="list" value="<%= listTitle %>"><i class="fa-solid fa-plus"></i></button>
+    </div>
   </form>
-
-
 </div>
 
 <%- include("footer") -%>
