@@ -76,6 +76,10 @@ h1 {
   text-align: center;
 }
 
+.bu {
+  width: 15%;
+}
+
 .item {
   min-height: 70px;
   display: flex;
