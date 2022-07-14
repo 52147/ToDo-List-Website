@@ -1,31 +1,42 @@
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+  .item {
+    width: 80%;
+    min-height: 80%;
+    align-items: center;
+    margin-left: 40px;
+    border-bottom: flex #F1F1F1;
   }
 
-  .box {
-    max-width: 400px;
-    margin: 50px auto;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  input[type="text"] {
+    text-align: center;
+    height: 10%;
+    top: 10%;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 5px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-bottom: 5%;
+
+  }
+
+  .i {
+    margin-left: 15px;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    border-left: 10px;
   }
 
   button {
-    min-height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border-color: transparent;
-    background-color: #9af2ff;
-    color: #fff;
-    font-size: 30px;
-    padding-bottom: 6px;
-    border-width: 0;
+    padding-top: 1%;
   }
 }
 
+
 html {
-  background-color: #E4E9FD;
+  background-color: #9af2ff;
   background-image: -webkit-linear-gradient(65deg, #9af2ff 50%, #e4fdfa 50%);
   min-height: 1000px;
   font-family: "Segoe UI",
@@ -82,6 +93,12 @@ p {
 form.item {
   text-align: center;
   margin-left: 20px;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+  margin-left: 5px;
 }
 
 button {
