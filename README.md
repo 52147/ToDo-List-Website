@@ -7,4 +7,4 @@ The most challenging part to build this project was the typo in package.json, I 
 The issue is simple to solve, but it took me a while to found out where the issue was.
 
 After I modified my json file(key map value and do not have comma in last document), and git add* git commit -m "update" git push heroku master, and the website builds successfully by the heroku app.
-what I found interested‎ of built a full stack website by myself is that when the webiste is sucessfully released, all the time working on the project is worth it.
+What I found interested of built a full stack website by myself is that when the webiste is sucessfully released, all the time working on the project is worth it.
