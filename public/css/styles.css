@@ -43,6 +43,16 @@
 
   }
 
+
+  .bu:active {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 10px #999;
+    -webkit-box-shadow: 1px 1px 10px #999;
+    box-shadow: 1px 1px 10px #999;
+    opacity: 0.7;
+
+  }
+
   .bu:hover {
     border: solid 1px #CCC;
     -moz-box-shadow: 1px 1px 10px #999;
@@ -177,4 +187,13 @@ footer {
   color: white;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
+}
+
+.activity_rounded {
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -khtml-border-radius: 50%;
+  border: 3px solid #fff;
 }
